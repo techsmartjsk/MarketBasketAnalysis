@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.shadow-text{
+    text-shadow:
+        0.02em 0 white,
+        0 0.02em white,
+        -0.02em 0 white,
+        0 -0.02em white;
+}
+
